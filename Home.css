@@ -1,0 +1,248 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background: #0f2a44;
+    color: #fff;
+    padding: 18px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #cc6b2c;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.hero {
+    background: linear-gradient(90deg, #1a2a33, #6d3d24);
+    color: #fdf8f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px 80px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.section {
+    padding: 70px 60px;
+    background: #f5f1ec;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #1a2d3f;
+}
+
+.section p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.card {
+  background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h3 {
+  color: #cc6b2c;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card ul {
+    padding-left: 18px;
+    font-size: 14px;
+    color: #333;
+}
+
+.plan {
+    background: #cfd8e3;
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.plan-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.plan-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.plan-card h3 {
+    color: #c56a12;
+    margin-bottom: 10px;
+}
+
+.plan-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.learn {
+    color: #c56a12;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.learn:hover {
+    text-decoration: underline;
+}
+
+.cta-section {
+    background: linear-gradient(to right, #1a2a33, #6d3d24);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.cta-section h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #cc6b2c;
+    color: white;
+    padding: 14px 35px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #a0522d;
+    transform: translateY(-2px);
+}
+
+.main-footer {
+    background-color: #0f2a44;
+    color: #cbd5e0;
+    padding: 60px 60px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 40px;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-col h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.brand-title {
+    color: #cc6b2c !important;
+}
+
+.footer-col a {
+    color: #cbd5e0;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-col a:hover, .contact-link:hover {
+    color: #cc6b2c;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.contact-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 13px;
+}
